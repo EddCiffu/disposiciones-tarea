@@ -1,0 +1,29 @@
+.image {
+    flex: auto;
+    width: 300px;
+    flex-wrap:wrap;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(61, 60, 63);
+    background-color: rgb(90, 27, 27);
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    margin-left: 5px;
+    margin-top: auto;
+}
+.image:hover{
+opacity: 0.7;
+cursor: pointer;
+}
+
+.header {
+   position:inherit;
+    background-color: cornsilk;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    background-color: rgb(31, 30, 39);
+}
